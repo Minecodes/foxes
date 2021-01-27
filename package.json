@@ -1,0 +1,41 @@
+{
+  "name": "foxes",
+  "version": "1.0.2",
+  "description": "This is the cli package of randomfox",
+  "main": "main.js",
+  "bin": [
+    "main-win.exe",
+    "main-macos",
+    "main-linux",
+    "main.js"
+  ],
+  "scripts": {
+    "test": "node main.js",
+    "build": "pkg main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Minecodes13/foxes.git"
+  },
+  "keywords": [
+    "fox",
+    "foxes",
+    "foxy",
+    "randomfox",
+    "randomfoxy",
+    "Minecodes"
+  ],
+  "author": "Minecodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Minecodes13/foxes/issues"
+  },
+  "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "randomfox": "^1.0.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
