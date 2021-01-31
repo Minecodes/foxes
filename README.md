@@ -1,6 +1,8 @@
 # foxes
 This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.
 
+<a class="github-button" href="https://github.com/Minecodes/foxes/archive/master.zip" data-icon="octicon-download" aria-label="Download Minecodes/foxes on GitHub">Download</a>
+
 ## How to use
 
 To get the image type
