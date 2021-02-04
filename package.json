@@ -33,7 +33,8 @@
   "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
   "dependencies": {
     "commander": "^7.0.0",
-    "randomfox": "^1.0.1"
+    "randomfox": "^1.0.1",
+    "update-notifier": "^5.1.0"
   },
   "devDependencies": {
     "pkg": "^4.4.9"
