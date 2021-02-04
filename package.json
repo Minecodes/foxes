@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "test": "node main.js",
-    "build": "pkg main.js"
+    "build": "pkg main.js",
+    "postinstall": "node update.js"
   },
   "repository": {
     "type": "git",
