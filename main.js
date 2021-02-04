@@ -1,19 +1,20 @@
-const { fox, customfox } = require("randomfox");
+const { fox } = require("randomfox");
 const { Command } = require('commander');
 const update = require('./update');
+const custom = require('./customfox');
 const program = new Command();
-program.version('1.0.1');
+program.version(require("./package.json").version); 
 
 program
   .option('-d, --debug', 'output extra debugging')
-  .option('-c, --custom <urls>', 'gives you an random fox image from your fox image urls');
+  .option('-c, --custom', 'gives you an random fox image from your fox image urls');
 
 program.parse(process.argv);
 
 const options = program.opts();
-if (options.debug) console.log(options);
+if (options.debug) {console.log(options);console.log(program.args);};
 if (options.custom) {
-    console.log(customfox(options.custom.split(" ")));
+    custom(program.args);
     update();
 } else {
     console.log(fox());

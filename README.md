@@ -1,5 +1,6 @@
 # foxes
-This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.
+This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.</br>
+Please install the updates for this.
 
 ## How to use
 
@@ -9,7 +10,7 @@ To get the image type
 
 To get a custom image type
 
-`foxes -c "https://randomfox.ca/images/3.jpg https://randomfox.ca/images/2.jpg https://randomfox.ca/images/1.jpg"`
+`foxes -c` or `foxes -c url1 url2 url3 url4 url5`
 
 or the same with npx
 

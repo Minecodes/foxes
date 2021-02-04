@@ -1,6 +1,6 @@
 {
   "name": "foxes",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "This is the cli package of randomfox",
   "main": "main.js",
   "bin": [
@@ -12,7 +12,9 @@
   "scripts": {
     "test": "node main.js",
     "build": "pkg main.js",
-    "postinstall": "node update.js"
+    "postinstall": "node update.js",
+    "a": "npm publish",
+    "p": "npm-run-all build a"
   },
   "repository": {
     "type": "git",
@@ -34,10 +36,12 @@
   "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
   "dependencies": {
     "commander": "^7.0.0",
+    "enquirer": "^2.3.6",
     "randomfox": "^1.0.1",
     "update-notifier": "^5.1.0"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "pkg": "^4.4.9"
   }
 }
