@@ -1,5 +1,6 @@
 const { fox, customfox } = require("randomfox");
 const { Command } = require('commander');
+const update = require('./update');
 const program = new Command();
 program.version('1.0.1');
 
@@ -13,6 +14,8 @@ const options = program.opts();
 if (options.debug) console.log(options);
 if (options.custom) {
     console.log(customfox(options.custom.split(" ")));
+    update();
 } else {
     console.log(fox());
+    update();
 }
