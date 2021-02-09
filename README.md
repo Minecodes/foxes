@@ -1,6 +1,6 @@
 # foxes
 This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.</br>
-Please install the updates for this.
+Now it's written in Typescript and the library too 👍😉
 
 ## How to use
 
@@ -10,14 +10,16 @@ To get the image type
 
 To get a custom image type
 
-`foxes -c` or `foxes -c url1 url2 url3 url4 url5`
+```bash
+foxes -c "url1 url2 url3"
+```
 
 or the same with npx
 
 ### Commandlist
 
 + `foxes -h` get the help
-+ `foxes -V` get the version
++ `foxes -v` get the version
 + `foxes` get an random fox image url
 + `foxes -c ""` get an random fox image from your urls
 

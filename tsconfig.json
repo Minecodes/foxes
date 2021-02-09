@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "files": [
+        "main.ts",
+        "cli.ts"
+    ]
+}

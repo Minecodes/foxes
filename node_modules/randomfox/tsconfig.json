@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "files": [
+        "src/main.ts",
+        "tests/customfox.ts",
+        "tests/fox.ts"
+    ]
+}
