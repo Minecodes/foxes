@@ -1,7 +1,7 @@
 # randomfox
 
 This is an library to get an link to an random fox image.</br>
-This is a API and now in TypeScript too. 👍😉
+This is a API and now in TypeScript too. 👍😉 [![CodeFactor](https://www.codefactor.io/repository/github/minecodes/randomfox/badge)](https://www.codefactor.io/repository/github/minecodes/randomfox)
 
 The cli version: [https://www.npmjs.com/package/foxes](https://www.npmjs.com/package/foxes)</br>
 How to work with Typescript: [https://www.typescriptlang.org/docs](https://www.typescriptlang.org/docs)

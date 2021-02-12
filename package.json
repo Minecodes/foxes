@@ -35,10 +35,10 @@
   "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
   "dependencies": {
     "meow": "^9.0.0",
-    "randomfox": "^1.0.4"
+    "randomfox": "^1.0.5"
   },
   "devDependencies": {
-    "@types/node": "^14.14.25",
+    "@types/node": "^14.14.27",
     "npm-run-all": "^4.1.5",
     "pkg": "^4.4.9"
   }
