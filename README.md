@@ -1,6 +1,7 @@
 # foxes
 This is randomfox as an cli app for Windows, MacOS(not for ARM) and Linux.</br>
 Now it's written in Typescript and the library too 👍😉
+[![CodeFactor](https://www.codefactor.io/repository/github/minecodes/foxes/badge)](https://www.codefactor.io/repository/github/minecodes/foxes)
 
 ## How to use
 
