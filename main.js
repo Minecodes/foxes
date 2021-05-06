@@ -29,5 +29,5 @@ else if (cli.flags.version) {
     console.log("Version: " + package_json_1.version);
 }
 else {
-    cli_1.parse(cli.input, cli.flags.custom);
+    cli_1.parse(cli.flags.custom);
 }

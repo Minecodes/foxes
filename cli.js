@@ -2,10 +2,9 @@
 exports.__esModule = true;
 exports.parse = void 0;
 var randomfox_1 = require("randomfox");
-function parse(args, custom) {
+function parse(custom) {
     if (custom) {
-        var urls = custom.split(" ");
-        console.log("\n===============Foxes===============\n" + randomfox_1.customfox(urls) + "\n");
+        console.log("\n===============Foxes===============\n" + randomfox_1.customfox(custom.split(" ")) + "\n");
     }
     else {
         console.log("\n===============Foxes===============\n" + randomfox_1.fox() + "\n");
