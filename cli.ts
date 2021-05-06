@@ -1,16 +1,15 @@
 /**
  * Name: foxes
- * Version: 1.0.8
+ * Version: 1.0.10
  * Authon: Minecodes
  */
 import { fox, customfox } from "randomfox";
 
-function parse(args, custom: string) {
+function parse(custom: string) {
     if (custom) {
-        var urls = custom.split(" ");
         console.log(`
 ===============Foxes===============
-${customfox(urls)}
+${customfox(custom.split(" "))}
 `);
     } else {
         console.log(`
