@@ -5,7 +5,7 @@
  */
 import { fox, customfox } from "randomfox";
 
-function parse(custom: string) {
+function parse(custom: string): void {
     if (custom) {
         console.log(`
 ===============Foxes===============
