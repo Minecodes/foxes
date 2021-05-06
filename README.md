@@ -26,26 +26,36 @@ or the same with npx
 
 ## Installation
 
-```
+```bash
 npm i -g foxes
+```
 
 or
 
+```bash
 yarn install -g foxes
+```
 
 or
 
+```bash
 npm i -g git+https://github.com/Minecodes/foxes
+```
 
 or
 
+```bash
 npm i -g git+https://gitlab.com/Minecodes13/foxes
+```
 
 or
 
+```bash
 yarn install -g git+https://github.com/Minecodes/foxes
+```
 
 or
 
+```bash
 yarn install -g git+https://gitlab.com/Minecodes13/foxes
 ```
