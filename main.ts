@@ -52,5 +52,5 @@ Author: ${author}
 } else if (cli.flags.version) {
     console.log(`Version: ${version}`);
 } else {
-    parse(cli.flags.custom);
+    parse(cli.flags.custom)
 }

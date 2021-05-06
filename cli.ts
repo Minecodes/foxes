@@ -1,8 +1,3 @@
-/**
- * Name: foxes
- * Version: 1.0.10
- * Authon: Minecodes
- */
 import { fox, customfox } from "randomfox";
 
 function parse(custom: string) {
@@ -11,11 +6,13 @@ function parse(custom: string) {
 ===============Foxes===============
 ${customfox(custom.split(" "))}
 `);
+        return true;
     } else {
         console.log(`
 ===============Foxes===============
 ${fox()}
 `);
+        return false;
     }
 }
 

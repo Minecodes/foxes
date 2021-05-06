@@ -1,6 +1,6 @@
 {
   "name": "foxes",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Get random fox image urls in a simple commandline app",
   "main": "main.js",
   "bin": [
