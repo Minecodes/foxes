@@ -8,27 +8,37 @@ How to work with Typescript: [https://www.typescriptlang.org/docs](https://www.t
 
 ## Installation ✅
 
-```
+```bash
 npm i randomfox
+```
 
 or
 
+```bash
 yarn install randomfox
+```
 
 or
 
+```bash
 npm i git+https://gitlab.com/Minecodes13/randomfox.git
+```
 
 or
 
+```bash
 yarn install git+https://gitlab.com/Minecodes13/randomfox.git
+```
 
 or
 
+```bash
 npm i git+https://github.com/Minecodes/randomfox.git
+```
 
 or
 
+```bash
 yarn install git+https://github.com/Minecodes/randomfox.git
 ```
 

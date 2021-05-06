@@ -1,6 +1,6 @@
 {
   "name": "foxes",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Get random fox image urls in a simple commandline app",
   "main": "main.js",
   "bin": [
@@ -36,12 +36,12 @@
   "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
   "dependencies": {
     "meow": "^9.0.0",
-    "randomfox": "^1.0.5"
+    "randomfox": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^14.14.27",
+    "@types/node": "^14.14.44",
     "npm-run-all": "^4.1.5",
-    "pkg": "^4.4.9",
+    "pkg": "^4.5.1",
     "typescript": "^4.2.4"
   }
 }
