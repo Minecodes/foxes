@@ -19,10 +19,13 @@ or the same with npx
 
 ### Commandlist
 
-+ `foxes -h` get the help
-+ `foxes -v` get the version
-+ `foxes` get an random fox image url
-+ `foxes -c ""` get an random fox image from your urls
+`foxes -h` -> For help
+
+`foxes -v` -> get the version
+
+`foxes` -> get an random fox image url
+
+`foxes -c ""` -> get an random fox image from your urls
 
 ## Installation
 
