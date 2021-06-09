@@ -35,7 +35,7 @@
   },
   "homepage": "https://gitlab.com/Minecodes13/foxes#readme",
   "dependencies": {
-    "meow": "^9.0.0",
+    "meow": "^10.0.1",
     "randomfox": "^1.0.7"
   },
   "devDependencies": {
